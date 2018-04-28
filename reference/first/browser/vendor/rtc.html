@@ -1,0 +1,23 @@
+<html>
+    <script src="./bundle.js"></script>
+    <body>
+        <button onclick="showPeers()">Show Peers</button>
+        <button onclick="getBlocks()">Show Blocks</button>
+        <div>Add Data</div>
+        <input id="Data"></input>
+        <button id="sendData">Add</button>
+        <input type="checkbox" id="ordered" checked>
+
+        <div>Receive progress: </div>
+        <progress id="receiveProgress" max="0" value="0"></progress>
+
+        <div>Send progress: </div>
+        <progress id="sendProgress" max="0" value="0"></progress>
+
+        <div id="errorMsg"></div>
+    </body>
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <script src="./common.js"></script>
+    <script src="./rtc.js"></script>
+
+</html>

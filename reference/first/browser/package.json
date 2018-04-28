@@ -1,0 +1,18 @@
+{
+  "name": "browser-core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "filer": "0.0.44",
+    "simple-multi-peer": "0.0.5",
+    "simple-peer": "^8.2.0",
+    "socketpeer": "^1.1.0"
+  }
+}

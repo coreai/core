@@ -1,0 +1,11 @@
+/agent/node_modules
+/network/node_modules
+/network/old
+/network/db
+/reference/DAG/node_modules
+/reference/first/node_modules
+/reference/first/browser/node_modules
+/reference/first/my-little-bitcoin
+/reference/naivechain
+/reference/second/node_modules
+/reference/third/node_modules
